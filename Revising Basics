@@ -1,0 +1,28 @@
+//Declaring a variable
+var person = 
+{
+    firstname :"Bhavin",
+    lastname:"Ondhiya",
+    age : 20
+}
+console.log(person)
+//Creating a Function
+function addnumbers(a,b)
+{
+    return a + b;
+}
+console.log(addnumbers(20,45));
+
+//Creating a function but defining it
+
+function subtract()
+{}
+console.log(subtract());//We will get output as Undefined
+
+//We can also store value which a function returns in a variable
+var sta = function(){
+    console.log("Hey how are you Node Js !!");
+};
+sta();//If you want to call function inside a varibale you need to make that variable and call it like function
+
+setTimeout(sta,5000);//It would call your function continuously after a fixed interval of time you set there.
